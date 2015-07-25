@@ -1,10 +1,10 @@
-body {
+body p{
 	margin: 0;
 	padding: 0;
 }
 .hongbao-top-base {
 	height: 6rem;
-	background-color: red;
+	background-color: rgb(245, 41, 76);
 }
 .hongbao-top-content {
 	float: left;
@@ -14,9 +14,8 @@ body {
 .hongbao-name {
 	width: 4rem;
 	text-align: center;
-	font-size: 0.5rem;
+	font-size: 0.75rem;
 	color: white;
-	font-weight: bold;
 }
 .hongbao-face-area-base {
 	float: left;
@@ -55,8 +54,7 @@ body {
 }
 .hongbao-detail-title {
 	height: 2.5rem;
-	background-color: red;
-	font-weight: bold;
+	background-color: rgb(245, 41, 76);
 	color: white;
 	width: 100%;
 	text-align: center;
@@ -87,6 +85,7 @@ body {
 	font-weight: bold;
 }
 .hongbao-detail-single-card-time {
+	margin-top: 0.5rem;
 	color: gray;
 }
 .hongbao-detail-single-card-history {
@@ -95,21 +94,36 @@ body {
 	margin-top: 1rem;
 	font-size: 1rem;
 	line-height: 1.25rem;
-	color: red;
+	color: rgb(245, 41, 76);
 	font-weight: bold;
 }
 .hongbao-dialog-text {
 	position: fixed;
-	top: 1.5rem;
-	right: 3rem;
+	top: 2.25rem;
+	right: 2rem;
 	font-size: 0.75rem;
+}
+.hongbao-dialog-text-one-first {
+	font-size: 1rem;
+	line-height: 1rem;
+	width: 15rem;
+	text-align: center;
+	color: rgb(245, 41, 76);
+}
+.hongbao-dialog-text-one-second {
+	font-size: 0.75rem;
+	line-height: 0.75rem;
+	margin-top: 0.5rem;
+	width: 15rem;
+	text-align: center;
+	color: rgb(245, 41, 76);
 }
 .hongbao-center-img-top-text-one {
 	position: fixed;
-	top: 9rem;
+	top: 8.5rem;
 	color: white;
 	width: 100%;
-	font-size: 0.5rem;
+	font-size: 1rem;
 	text-align: center;
 }
 .hongbao-center-img-button-one {
@@ -119,78 +133,114 @@ body {
 	text-align: center;
 }
 .hongbao-center-img-button-base-one {
-	background-color: yellow;
+	background-color: rgb(255, 251, 187);
 	border: none;
 	border-radius: 10px;
 	width: 5rem;
 	height: 2rem;
-	color: red;
+	color: rgb(245, 41, 76);
+	font-size: 1rem;
+	line-height: 1.25rem;
+}
+.hongbao-dialog-text-two-first {
+	font-size: 1rem;
+	line-height: 1rem;
+	width: 15rem;
+	text-align: center;
+	color: rgb(245, 41, 76);
+}
+.hongbao-dialog-text-two-second {
+	font-size: 0.75rem;
+	line-height: 0.75rem;
+	margin-top: 0.5rem;
+	width: 15rem;
+	text-align: center;
+	color: rgb(245, 41, 76);
 }
 .hongbao-center-img-top-text-two {
 	position: fixed;
 	top: 9rem;
 	color: red;
 	width: 100%;
-	font-size: 0.5rem;
+	font-size: 1rem;
+	font-weight: bold;
 	text-align: center;
 }
+
 .hongbao-center-img-mid-text-two {
 	position: fixed;
 	top: 11.5rem;
-	color: yellow;
+	color: rgb(255, 251, 187);
 	width: 100%;
-	font-size: 0.5rem;
+	font-size: 0.75rem;
 	text-align: center;
 }
 .hongbao-center-img-button-two {
 	position: fixed;
 	top: 12.5rem;
 	width: 100%;
-	left: 7.5rem;
+	left: 8.5rem;
 }
 .hongbao-center-img-button-base-two {
 	text-align: center;
 	float: left;
 	clear: both;
-	background-color: yellow;
+	background-color: rgb(255, 251, 187);
 	border: none;
-	border-radius: 5px;
-	width: 8rem;
+	border-radius: 15px;
+	width: 6rem;
 	height: 1.5rem;
-	color: red;
+	color: rgb(245, 41, 76);
+	font-size: 0.75rem;
 	margin-top: 0.5rem;
+}
+.hongbao-dialog-text-three-first {
+	font-size: 1rem;
+	line-height: 1rem;
+	width: 15rem;
+	text-align: center;
+	color: rgb(245, 41, 76);
+}
+.hongbao-dialog-text-three-second {
+	font-size: 0.75rem;
+	line-height: 0.75rem;
+	margin-top: 0.5rem;
+	width: 15rem;
+	text-align: center;
+	color: rgb(245, 41, 76);
 }
 .hongbao-center-img-top-text-three {
 	position: fixed;
-	top: 9rem;
+	top: 8.75rem;
 	color: white;
 	width: 100%;
-	font-size: 0.5rem;
+	font-size: 1rem;
 	text-align: center;
 }
 .hongbao-center-img-mid-text-three {
 	position: fixed;
 	top: 11.5rem;
-	color: yellow;
+	color: rgb(255, 251, 187);
 	width: 100%;
-	font-size: 0.5rem;
+	font-size: 0.75rem;
 	text-align: center;
 }
 .hongbao-center-img-button-three {
 	position: fixed;
-	top: 12.5rem;
+	top: 12rem;
 	width: 100%;
-	left: 7.5rem;
+	left: 8.5rem;
 }
 .hongbao-center-img-button-base-three {
 	text-align: center;
 	float: left;
 	clear: both;
-	background-color: yellow;
+	background-color: rgb(255, 251, 187);
 	border: none;
-	border-radius: 5px;
-	width: 8rem;
+	border-radius: 15px;
+	width: 6rem;
 	height: 1.5rem;
-	color: red;
+	color: rgb(245, 41, 76);
+	font-size: 0.75rem;
 	margin-top: 0.5rem;
 }
