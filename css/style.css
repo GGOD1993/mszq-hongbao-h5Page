@@ -132,6 +132,7 @@ body p{
 	text-align: center;
 }
 .hongbao-center-img-button-base-one {
+	padding: 0 !important;
 	background-color: rgb(255, 251, 187);
 	border: none;
 	border-radius: 10px;
@@ -177,6 +178,7 @@ body p{
 	text-align: center;
 }
 .hongbao-center-img-button-base-two {
+	padding: 0 !important;
 	text-align: center;
 	clear: both;
 	background-color: rgb(255, 251, 187);
@@ -222,6 +224,7 @@ body p{
 	text-align: center;
 }
 .hongbao-center-img-button-base-three {
+	padding: 0 !important;
 	text-align: center;
 	clear: both;
 	background-color: rgb(255, 251, 187);
